@@ -1,0 +1,15 @@
+a = 4*3 / 4 + 4 / 4 + 8 - 2 +5 / 8 
+Steps
+Step 1 :According to priority first division and multiplication opreation will proceed i.e
+Step 2: now addition and multiplication will proceed: as follows
+ 
+	12/4+4/4+8-2+5/8
+	3+4/4+8-2+5/8
+	3+1+8-2+0.625
+	4+8-2+0.625
+	12-2+0.625
+	10+0.625
+	10.625
+
+
+Step 4 : Answer : 10.625

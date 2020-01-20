@@ -1,0 +1,5 @@
+output 1)
+	z is not less than a
+output 2)
+	Boston
+	New York

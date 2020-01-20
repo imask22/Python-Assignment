@@ -1,0 +1,13 @@
+r=s=t=5	 	#taking values in the variables
+avg = r+s+t/3 	#this is what we suppose to do by                         		#programming
+
+Step 1:
+Replacing var with constants:
+Step 2:(with sub steps denoting how the flow of program is)
+avg = 5 + 5 + 5 / 3  (using left to right rule by the operator 			of same priority)
+avg = 5 + 5 + 1.67
+avg = 10+1.67
+avg = 11.67 ...approx 
+
+Step 3:
+Answer = 11.67
