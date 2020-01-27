@@ -19,12 +19,14 @@ print("Dictionary of Current Info",fruit)
 
 #to find largest producer of nutrition among all in list2
 #to find nutrition production in china
-list2=[];list1=[]
+list2=[]
+list1=[]
 for fruit_id in fruit.keys():
-    for nut in fruit[fruit_id]['major_producers'].keys():
+    for nutrition in fruit[fruit_id]['major_producers'].keys():
         if(nut=="china"):
-            list2.append(fruit[fruit_id]['major_producers'][nut]['nutrition']['protein'])
-        list1.append(fruit[fruit_id]['major_producers'][nut]['nutrition']['protein'])
+            list2.append(fruit[fruit_id]['major_producers'][nutrition]['nutrition']['protein'])
+        list1.append(fruit[fruit_id]['major_producers'][nutrition]['nutrition']['protein'])
 #printing Required Values
 print("maximum  producer in protein is",max(list1))
+#printing china value of protein
 print("maximum production among major producer in protein in china is",max(list2))
