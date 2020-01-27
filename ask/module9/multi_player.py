@@ -21,7 +21,8 @@ def play1(listnm):
         if(ask=="off"):
             print("You won!")
             break
-while(True):
+n=0
+while(n!=3):
     try:
         listnm=[]
         listplayer=[]
@@ -33,12 +34,15 @@ while(True):
         print("Can you Score > 30 ?? fastest and luckiest will win challenge ")
         print("1 to play game")
         print("2 to show all scroes so far")
+        print("3 to exit!!!")
         n=int(input())
         if(n==1):
             obj1=start(listplayer,listnm)
             play1(listnm)
         elif(n==2):
             obj1.Displayall()
+        elif(n==3):
+            print("Bye!!")
     except:
         print("Deck emptied Game Ties")
         
